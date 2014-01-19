@@ -1,0 +1,27 @@
+<h1>Introduction To Version Control</h1>
+
+<p>Unless you are a fully-fledged genius, any kind of creative work – be it coding, art, or music – will be a process of evolutionary change. Ideas are patched together and revised; variations of an initial concept are experimented with and creatively cross-pollinate, eventually producing a complete work. Add another person to the mix and the twists and turns of the creative process become even more complex.
+
+<p>For most human history, this creative process has been entirely invisible: historians consider themselves blessed by fate to find an early sketch by Michelangelo or a Shakespeare first draft. But today, we can preserve every step you take with version control.  
+
+<h2>Version Control Concepts</h2>
+
+<p>The most familiar form of version control is the ubiquitous <kbd>Undo</kbd> option, which allows you to reverse the steps you have taken in a document. In most cases, this historical timeline is maintained only while the document is open, and discarded once it is closed. More advanced applications may display the change history as a series of snapshots, but all such systems have the same limitation: they are all linear recordings of what occurs in a file.
+
+<p>Imagine the cross section of a tree’s trunk. The growth rings record the changes to the organism, but you can only proceed forwards and backwards horizontally, in linear time. To make a variation of the tree, you would have to take a cutting and start an entirely different plant. When working with digital files, this approach causes massive replication and confusion: we’ve all seen project folders filled with filenames like <kbd>final.xyz</kbd>, <kbd>true_final.xyz</kbd>, and <kbd>revision_true_final.xyz</kbd>
+
+<p>Ideally, what we want is a system that preserves the changes made to files, without confusing us with multiple copies. We should have the ability to go back or forward through almost point in the file’s change history. When working in teams, we’d like to know that we’re always dealing with the latest version of any file, and to know who contributed what changes. Finally, we’d like the ability to make a new “branch” of a project to experiment with, knowing that changes made to it will not affect the main “trunk” unless we wish them to. Obviously, we’d like the project to be stored securely offsite, both so that we can get access to it from anywhere and to act as a dependable backup of our work.
+
+<h2>Version Control Systems</h2>
+
+<p>There are many different kinds of version control (also known as <em>source control</em> and <em>revision control</em>). Each system has its own advantages, adherents and defenders. A few features, including those mentioned above, are common between all of them: creative work and its branches are stored in a central <em>repository</em> that contributors can <em>pull</em> from, make modifications, and <em>push</em> changes to. There is usually one person who is given the role of a central figure or <em>maintainer</em>, who can <em>commit</em> changes to the main <em>trunk</em>. Finally, files can be locked off and restricted from alteration.
+
+<p>The most popular version control system in use today is probably <a href=//git-scm.com>Git</a>, although there are many other possibilities: <a href=//mercurial.selenic.com>Mercurial</a>, <a href=//www.nongnu.org/cvs/>CVS</a> and <a href=//subversion.apache.org>Subversion</a> are all in common use.
+
+<p>While version control is most commonly associated with software and web development, you should know that plummeting storage costs and availability of cheap high-speed bandwidth is causing version control principles to be applied to other creative endeavours: <a href=//layervault.com>LayerVault</a>, for instance, provides the ability to store changes to PhotoShop documents and other formats, and share these alterations with others.
+
+<h2>The Fearsome Command Line</h2>
+
+<p>Like the installation and use of many preprocessors, the biggest challenge to first-time users of version control systems is that almost all of them are driven from the command line. To those brought up in a point-and-click (or touch-and-gesture) world, this can be strange, frightening, and somewhat intimidating. Thankfully, there are graphical-based applications such as <a href=//git-tower.com>Tower</a>  that are built with support for most version control systems. While a graphical interface will not give you the power, range and flexibility of issuing text commands, they do provide the most common features in a manner that is more easily accessible to most.
+
+<p>In future articles, I’ll take you through the process of using version control systems to preserve, share and alter your own work.
